@@ -15,4 +15,13 @@
   }
   testThatNoteListViewReturnsTheRightHtmlforANoteListThatHasOneNote();
 
+  function testThatNoteListViewReturnsTheRightHtmlforANoteListThatHasTwoNotes(){
+    var noteList = new NoteList();
+    noteList.storeNote("first note");
+    noteList.storeNote("second note");
+    var noteListView = new NoteListView(noteList);
+    assert.isTrue(noteListView.view() === "<ul><li><div>first note</div></li><li><div>second note</div></li></ul>")
+  }
+  testThatNoteListViewReturnsTheRightHtmlforANoteListThatHasTwoNotes();
+
 })(this);

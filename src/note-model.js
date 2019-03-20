@@ -1,11 +1,11 @@
 (function(exports){
-  var text;
+
   function Note(texts){
-    text = texts;
+    this.text = texts;
   };
   Note.prototype.getText = function(){
-    return text;
+     return this.text;
   }
   exports.Note = Note;
-  
+
 })(this);
