@@ -1,1 +1,1 @@
-document.getElementById('app').innerHTML = 'howdy'
+document.getElementById('app').innerHTML = 'how are you?';

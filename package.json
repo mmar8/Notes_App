@@ -2,7 +2,7 @@
   "name": "notes-js-2",
   "version": "1.0.0",
   "description": "notes app",
-  "main": "index1.js",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
