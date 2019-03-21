@@ -7,8 +7,8 @@
     return notes;
   }
 
-  NoteList.prototype.storeNote = function(noteText){
-    notes.push((new Note(noteText)));
+  NoteList.prototype.storeNote = function(note){
+    notes.push(note);
   }
   exports.NoteList = NoteList;
 })(this);
