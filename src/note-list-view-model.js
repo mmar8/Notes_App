@@ -7,7 +7,7 @@
   NoteListView.prototype.view = function(){
       var htmlString = "<ul>"
       this.noteList.getNotes().forEach(function(note){
-        htmlString+="<li><div>"+note.getText()+"</div></li>"
+        htmlString+="<li><div>"+note.text+"</div></li>"
       })
       htmlString += "</ul>"
       return htmlString;
